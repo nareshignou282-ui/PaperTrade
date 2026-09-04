@@ -1,22 +1,126 @@
-# PaperTrade v4 — Dhan-inspired paper trading mobile app
+# PaperTrade
 
-This Android prototype follows the mobile information architecture and light visual density shown in the user's Dhan reference screenshots while using original PaperTrade branding.
+**PaperTrade – NIFTY Paper Trading & Trade Journal**
 
-## Included
-- Dhan-inspired Home / Watchlist / Portfolio / Orders / Funds navigation
-- Positions | Orders | Super | Flash workflow
-- NIFTY full-chain style option-chain UI with 50-point strikes around ATM
-- Paper Buy/Sell order sheet, MIS/NRML/CNC/MTF, Market/Limit/SL/SL-M/Super fields
-- Virtual wallet, margin utilization, realized/unrealized P&L
-- Positions with Add / Exit / Reverse actions
-- Trader's Diary and Trader Controls / Kill Switch
-- Official TradingView ticker tape and Advanced Chart embeds
-- GitHub Actions APK builder
+PaperTrade is an open-source paper trading application designed to help users learn NIFTY options trading without risking real money.
 
-## Market-data boundary
-TradingView widgets are used only for their official embedded visual experience. TradingView does not expose widget prices as a public raw quote API for a custom order engine. Therefore the raw option-chain/execution layer is implemented behind the PaperTrade provider adapter and must be connected to an authorized live market-data provider for exchange-grade real-time NIFTY option-chain fills.
+The project provides a simulated trading environment where users can practice trades, monitor virtual profit and loss, maintain a trading diary, and analyze their trading decisions.
 
-The included raw quote/option values are a demo provider so the complete paper-trading workflow can be tested without real money. Do not represent them as guaranteed exchange real-time prices.
+## Features
 
-## Build
-Push this folder to GitHub. `.github/workflows/build-apk.yml` builds `PaperTrade.apk` as an Actions artifact.
+- NIFTY paper trading
+- Options trading simulation
+- NIFTY option chain interface
+- Virtual trading balance
+- Buy and Sell simulation
+- Open positions tracking
+- Profit and Loss monitoring
+- Trading diary
+- Trade history
+- Risk-management learning
+- TradingView chart integration
+- Educational trading environment
+
+## Purpose
+
+The purpose of PaperTrade is to provide a safe environment for students, beginners, and traders to practice trading strategies before using real money.
+
+Users can record their trades and review their decisions to understand:
+
+- What went right
+- What went wrong
+- Trading mistakes
+- Risk-management mistakes
+- Trading performance
+- Areas for improvement
+
+## Future Development
+
+Planned features include:
+
+- Real-time market-data provider integration
+- Advanced NIFTY option chain
+- Trade analytics dashboard
+- Risk/reward analysis
+- Trading statistics
+- Strategy performance analysis
+- AI-assisted trade journal analysis
+- Automatic identification of trading mistakes
+- Personalized trading insights
+- Improved charts and market visualization
+
+## Technology
+
+The project is being developed as an Android application.
+
+Additional technologies and APIs may be integrated as the project develops.
+
+## Installation
+
+The project is currently under active development.
+
+Detailed installation instructions and APK releases will be added as development progresses.
+
+## Open Source
+
+PaperTrade is an open-source project.
+
+Developers are welcome to contribute improvements, report bugs, suggest features, and help improve the project.
+
+## Contributing
+
+Contributions are welcome.
+
+You can contribute by:
+
+- Reporting bugs
+- Suggesting new features
+- Improving documentation
+- Improving the user interface
+- Adding tests
+- Fixing issues
+- Improving trading analytics
+
+## Roadmap
+
+### Version 0.1
+- Basic paper trading
+- Virtual balance
+- Buy/Sell simulation
+- Positions
+- Trade diary
+
+### Version 0.2
+- Improved option chain
+- Trade statistics
+- Risk-management tools
+- Performance dashboard
+
+### Version 0.3
+- AI-assisted trade analysis
+- Trading mistake detection
+- Personalized trading insights
+
+## Disclaimer
+
+PaperTrade is intended for educational and paper-trading purposes only.
+
+It does not provide financial or investment advice. Market information displayed by the application should not be considered a recommendation to buy or sell any financial instrument.
+
+Real-time exchange-grade market data may require integration with an authorized market-data provider.
+
+## License
+
+This project is intended to be released as open source.
+
+A software license will be added to the repository.
+
+## Maintainer
+
+Maintained by **Naresh**
+
+GitHub: [@nareshignou282-ui](https://github.com/nareshignou282-ui)
+
+---
+
+If you find PaperTrade useful, consider giving the repository a ⭐ and contributing to the project.
