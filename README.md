@@ -122,5 +122,24 @@ Maintained by **Naresh**
 GitHub: [@nareshignou282-ui](https://github.com/nareshignou282-ui)
 
 ---
+## Screenshots
+
+### Dashboard
+![PaperTrade Dashboard](screenshots/dashboard.jpg)
+
+### Charts
+![PaperTrade Charts](screenshots/charts.jpg)
+
+### Buy / Sell
+![Buy Sell](screenshots/Buy-sell.png)
+
+### Watchlist
+![Watchlist](screenshots/Watchlist.jpg)
+
+### Orders
+![Orders](screenshots/Orders.jpg)
+
+### Balance
+![Balance](screenshots/Balance.jpg)
 
 If you find PaperTrade useful, consider giving the repository a ⭐ and contributing to the project.
